@@ -1,0 +1,74 @@
+.miTitulo {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #ff0000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px #000000;
+}
+
+.mitexto {
+    font-size: 0.9em;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 15px;
+}
+
+#table-container {
+    width: 70%;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px dashed;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+td {
+    padding: 15px;
+}
+td:hover{
+    background-color: #12e131;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+tr:nth-child(odd){
+    background-color: rgb(4, 0, 255);
+}
+
+a:hover{
+    color: #c14949;
+}
+
+
+span:first-child{
+    background-color: blue;
+}
+p::first-letter{
+    color: blue;
+}
+
+a:visited {
+    color: #ddff00;
+}
+a[target="_blank"]{
+    background-color: yellow;
+}
+.micombinador>p{
+ background-color: yellowgreen;  
+
+}
